@@ -1,3 +1,4 @@
-[%%raw "import './index.css'"];
+%raw
+"import './index.css'";
 
 ReactDOMRe.renderToElementWithId(<App />, "root");
