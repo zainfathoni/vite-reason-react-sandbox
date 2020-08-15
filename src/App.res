@@ -1,11 +1,10 @@
-%raw
-"import './App.css'";
+%%raw("import './App.css'")
 
-[@bs.module "./logo.svg"] external logo: string = "default";
+@bs.module("./logo.svg") external logo: string = "default"
 
-[@react.component]
+@react.component
 let make = () => {
-  let (count, setCount) = React.useState(() => 0);
+  let (count, setCount) = React.useState(() => 0)
   <div className="App">
     <header className="App-header">
       <img src=logo className="App-logo" alt="logo" />
@@ -28,5 +27,5 @@ let make = () => {
         {React.string("Learn Reason React")}
       </a>
     </header>
-  </div>;
-};
+  </div>
+}
