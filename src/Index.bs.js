@@ -7,7 +7,7 @@ import * as App$ViteReasonReactStarter from "./App.bs.js";
 import './index.css'
 ;
 
-ReactDOMRe.renderToElementWithId(React.createElement(App$ViteReasonReactStarter.make, { }), "root");
+ReactDOMRe.renderToElementWithId(React.createElement(App$ViteReasonReactStarter.make, {}), "root");
 
 export {
   

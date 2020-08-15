@@ -10,9 +10,9 @@ import './App.css'
 var logo = LogoSvg.default;
 
 function App(Props) {
-  var match = React.useState((function () {
-          return 0;
-        }));
+  var match = React.useState(function () {
+        return 0;
+      });
   var setCount = match[1];
   return React.createElement("div", {
               className: "App"
